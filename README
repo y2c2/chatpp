@@ -1,0 +1,29 @@
+Chat++
+Copyright(C) 2012 y2c2
+
+****************
+* INTRODUCTION *
+****************
+Chat++ is a simple multi-client chat program which used TCP protocol for data transmission. It can cross-platform and running on UNIX like Operation System such as GNU/Linux and Microsoft Windows.
+
+*************
+* COMPONENT *
+*************
+Chat++ uses pthread library on UNIX and Win32 thread on Win32 for multi-threading support.
+Winsock is used for network function supporting on Win32.
+GTK+ is used for GUI on client on both platform.
+
+*************
+* COMPILING *
+*************
+On UNIX side, just make sure you have installed neccessary package for GTK+ development, and type make on shell
+$ make
+
+On Windows side, you have to install MinGW, UnixUtils and GTK+ before compiling.
+> make
+
+***************************
+* BUG REPORT & SUGGESTION *
+***************************
+Contact me then :)
+
